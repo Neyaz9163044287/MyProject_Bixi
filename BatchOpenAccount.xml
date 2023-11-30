@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="1" parallel="tests" name="Suite">
+  <test thread-count="1" parallel="tests" name="Test">
+    <classes>
+      <class name="Bixi_Open_Account.TC_03_DebitCardPage_SmokeTest"/>
+      <class name="Bixi_Open_Account.TC_05_NewBankAccount_SystemTest"/>
+      <class name="Bixi_Open_Account.TC_15_DebitCardwithBlankFields_FT"/>
+      <class name="Bixi_Open_Account.TC_02_StaffloginGenericUtilsTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
